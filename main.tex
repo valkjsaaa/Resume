@@ -1,0 +1,259 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+\usepackage{tabularx}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\namesection{Jackie(Junrui)}{Yang}{ \urlstyle{same}\url{http://www.yangjunrui.com} \\
+\href{mailto:jackieyang51@gmail.com}{jackieyang51@gmail.com} | +86-136-9153-0067
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.35\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Beijing No.8 Middle School}
+\descript{Gifted and Talented Class}
+\location{2006.09-2009.06}
+\sectionsep
+
+\sectionsep
+
+\subsection{High School affiliated to Renmin University}
+\location{2009.09-2012.06}
+\sectionsep
+
+\subsection{Peking University}
+\descript{BS in Computer Science}
+\location{2012.09-2016.06 (Expected)}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Links} 
+% Github:// \href{https://github.com/deedydas}{\custombold{deedydas}} \\
+% LinkedIn://  \href{https://www.linkedin.com/in/debarghyadas}{\custombold{debarghyadas}} \\
+% YouTube://  \href{https://www.youtube.com/user/DeedyDash007}{\custombold{DeedyDash007}} \\
+% Twitter://  \href{https://twitter.com/debarghya_das}{\custombold{@debarghya\_das}} \\
+% Quora://  \href{https://www.quora.com/Debarghya-Das}{\custombold{Debarghya-Das}}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Coursework}
+% \subsection{Graduate}
+% Advanced Machine Learning \\
+% Open Source Software Engineering \\
+% Advanced Interactive Graphics \\
+% Compilers + Practicum \\
+% Cloud Computing \\
+% \sectionsep
+
+% \subsection{Undergraduate}
+% Information Retrieval \\
+% Operating Systems \\
+% Artificial Intelligence + Practicum \\
+% Functional Programming \\
+% Computer Graphics + Practicum \\
+% {\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
+% Unix Tools and Scripting \\
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{English}
+TOFEL: 107
+\subsection{Programming}
+C/C++ \textbullet{} Scheme \textbullet{} Python \textbullet{} Python \textbullet{} Javascript  \textbullet{} .Net and C\# \textbullet{} Swift and Objective-C on OS X/iOS
+\subsection{Others}
+Experienced in micro controller programming (ATMega and Cortex-M platform)
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+% \begin{tabular}{rll}
+% 2011 &National Olympiad in Informatics in Provinces, Second Prize\\
+% 2012 &Peking University ACM/ICPC, Third Prize\\
+% 2013 &International Youth Innovation Competition, Golden Prize\\
+% 2013 &Peking University Industrial Engineering Competition, First Prize\\
+% 2013 &"Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition, Second Prize in Peking University\\
+% 2013 &Peking University Prize for social/community work\\
+% 2013 &Honorable Mention in Mathematical Contest in Modelling\\
+% 2013 &Peking University ACM/ICPC, Third Prize\\
+% \end{tabular}
+% \sectionsep
+
+\begin{description}
+\itemsep0em 
+	\item[2011] National Olympiad in Informatics in Provinces, Second Prize\\
+	\item[2012] Peking University ACM/ICPC, Third Prize\\
+	\item[2013] International Youth Innovation Competition, Golden Prize\\
+	\item[2013] Peking University Industrial Engineering Competition, First Prize\\
+	\item[2013] "Challenge Cup" National College Student Curricular Academic Science and Technology Works Competition, Second Prize in Peking University\\
+	\item[2013] Peking University Prize for social/community work\\
+	\item[2013] Honorable Mention in Mathematical Contest in Modelling\\
+	\item[2013] Peking University ACM/ICPC, Third Prize\\
+	\item[2014] Peking University Founder Prize
+	\item[2014] Peking University Innovation Prize
+\end{description}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.62\textwidth} 
+
+\section{Profile}
+Born with great talent, I’m admitted to gifted and talented class in Beijing No.8 Middle School, and then enrolled in Peking University in my 16. I have great learning ability, experienced in interdisciplinaryresearch. I’m also able to organize development projects. A project founded by me, “Pocket Printer”, won many awards.
+
+I take part in many software hardware co-design projects. I have done research at both computer science and bio-engineering lab, giving me insight on automation and cutting edge research in life science.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Huang Lab}
+\descript{| Intern, Biodynamic Optical Imaging Center}
+\location{2013.6-present |  Peking University }
+Build “Cell Picker”, a Computer assisted high throughput single cell acquiring system\\
+Built the whole software system and part of the hardware structure.\\
+Introduced our project to Chairman Xi when he visited Peking University.\\
+Build a bioinformatics program to analyse DNA Barcoding sequencing result.\\
+Implement the program.\\
+Build a automated droplet generating system\\
+Build all the software and hardware system.\\
+
+\runsubsection{Center for Energy-Effecient Computing and Applications}
+\descript{| Intern, Reconfigurable Architecture for Wireless Team}
+\location{2014.2-present | Intern, Reconfigurable Architecture for Wireless Team, Peking University}
+Help build the linux driver for our software defined radio system
+Port this system to a more commonly used driver ath9k.
+
+\runsubsection{Microsoft Research Asia}
+\descript{| Research Intern, Wireless and Networking research group}
+\location{2015.2-present | Beijing}
+Under Jacky Shen's guidance, wrote the algorithm part of an indoor location application.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     RESEARCH
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Pocket Printer}
+\descript{}
+\location{2013.09-2014.09}
+Pocket printer is a printer that can fit in a pocket. To achieve this, I cancelled the paper feeding system in traditional printer, and placed a navigating system formed by several mouse navigating sensor. I expected the printer can print the pattern depending on the relative location of the printer.
+Hardware and software co-design. Lead the development group. Designed the circuit board, the software logic inside the microcontroller, and the client software in phone.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOCIAL
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Social}
+\runsubsection{Peking University Makerspace}
+\descript{Peking University}
+\location{2014.11-Now}
+Co-founded the Peking University Makerspace as the president of the association. The Peking University Makerspace is an official Peking University student organization. We provide our peers a laboratory to conduct their innovative projects like mine. We also design a series of classes and lectures to teach students basic hardware and software engineering skills along with experience in start-up companies.
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %     SOCIETIES
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Societies} 
+
+% \begin{tabular}{rll}
+% 2014 	& top 12\%ile    & Tau Beta Pi Engineering Honor Society\\
+% 2014   & National   & The Global Leadership and Education Forum (tGELF)\\
+% 2012   &  National  & Golden Key International Honor Society\\
+% 2012   &  National   & National Society of Collegiate Scholars\\
+% \end{tabular}
+% \sectionsep
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
