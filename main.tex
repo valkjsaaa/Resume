@@ -46,7 +46,9 @@
 
 \documentclass[]{deedy-resume-openfont}
 \usepackage{tabularx}
-
+\usepackage{nth}
+\usepackage{enumitem}
+\setlist{nolistsep}
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -95,6 +97,13 @@
 \subsection{Peking University}
 \descript{BS in Computer Science}
 \location{2012.09-2016.06 (Expected)}
+GPA:
+\begin{description}
+\item[\nth{1} semester] 3.46
+\item[\nth{2} semester] 2.98
+\item[\nth{3} semester] 3.43
+\item[\nth{4} semester] 3.66
+\end{description}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -140,7 +149,7 @@
 \subsection{English}
 TOFEL: 107
 \subsection{Programming}
-C/C++ \textbullet{} Scheme \textbullet{} Python \textbullet{} Python \textbullet{} Javascript  \textbullet{} .Net and C\# \textbullet{} Swift and Objective-C on OS X/iOS
+C/C++ \textbullet{} Python \textbullet{} Javascript  \textbullet{} Scheme  \textbullet{} .Net and C\# \textbullet{} Swift and Objective-C on OS X/iOS
 \subsection{Others}
 Experienced in micro controller programming (ATMega and Cortex-M platform)
 \sectionsep
@@ -214,7 +223,7 @@ Port this system to a more commonly used driver ath9k.
 \runsubsection{Microsoft Research Asia}
 \descript{| Research Intern, Wireless and Networking research group}
 \location{2015.2-present | Beijing}
-Under Jacky Shen's guidance, wrote the algorithm part of an indoor location application.
+Under Jacky Shen's guidance, wrote the algorithm part of an indoor location application. Recently I started to work on an innovative research project.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     RESEARCH
